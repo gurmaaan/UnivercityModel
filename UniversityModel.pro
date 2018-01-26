@@ -25,10 +25,28 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    faculty.cpp \
+    department.cpp \
+    lab.cpp \
+    person.cpp \
+    student.cpp \
+    employee.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    faculty.h \
+    department.h \
+    lab.h \
+    person.h \
+    student.h \
+    employee.h
 
 FORMS += \
         mainwindow.ui
+
+RESOURCES += \
+    resources.qrc
+
+DISTFILES += \
+    model.qmodel
